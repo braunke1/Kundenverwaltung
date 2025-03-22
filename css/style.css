@@ -1,0 +1,114 @@
+/* Anpassungen für die Sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 48px 0 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.sidebar .nav-link {
+    font-weight: 500;
+    color: #333;
+}
+
+.sidebar .nav-link.active {
+    color: #007bff;
+}
+
+/* Abstand für den Hauptinhalt */
+@media (min-width: 768px) {
+    main {
+        padding-top: 1rem;
+    }
+}
+
+/* Fix für den oberen Abstand der Sidebar, da wir die Navbar haben */
+.sidebar {
+    margin-top: 3.5rem;
+}
+
+/* Anpassungen für die Hauptnavigation */
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Dashboard-Karten */
+.dashboard-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Formular-Styling */
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Tabellen-Styling */
+.table-responsive {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.table thead th {
+    background-color: #f8f9fa;
+    border-top: none;
+}
+
+/* Badge-Styling für Kundentypen */
+.badge {
+    font-weight: 500;
+    padding: 0.4em 0.6em;
+}
+
+/* Allgemeine Utilities */
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* Erweiterte Statistik-Styles */
+.stats-item {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+
+.stats-item h3 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.progress {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Suchfunktion */
+.search-category h6 {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.search-category .list-group-item {
+    transition: background-color 0.2s;
+}
+
+.search-category .list-group-item:hover {
+    background-color: #f8f9fa;
+}

@@ -1,0 +1,3 @@
+customer_id;customer_type;first_name;last_name;email;phone;street;postal_code;city;country;company_name;tax_id;website;industry;notes;created_by;created_at;updated_at
+97;private;Björn;Graunke;bgraunke@web.de;;"Spechthausener Str. 19";16244;Schorfheide;Deutschland;;;;;;;"2025-03-13 15:42:45";"2025-03-13 15:42:45"
+98;business;Björn;Graunke;info@webservice-graunke.de;01723979451;"Spechthausener Str. 19";16244;Schorfheide;DE;"PC- &amp; WEBSERVICE GRAUNKE";;;;;;"2025-03-13 15:42:53";"2025-03-13 15:42:53"

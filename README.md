@@ -1,2 +1,0 @@
-# Kundenverwaltung
-CRM / ERP 
